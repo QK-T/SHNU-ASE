@@ -30,57 +30,63 @@
 
 ## 图解Git命令及其工作过程
 
-![Git-1](/Users/ziguoxu/研究生课程/软件工程/pic/Git-1.png)
+![](images/Git-1.png)
 
-![Git-2](/Users/ziguoxu/研究生课程/软件工程/pic/Git-2.png)
+![](images/Git-2.png)
 
-![Git-3](/Users/ziguoxu/研究生课程/软件工程/pic/Git-3.png)
+![](images/Git-3.png)
 
-![Git-4](/Users/ziguoxu/研究生课程/软件工程/pic/Git-4.png)
+![](images/Git-4.png)
 
-![Git-5](/Users/ziguoxu/研究生课程/软件工程/pic/Git-5.png)
+![](images/Git-5.png)
 
-![Git-6](/Users/ziguoxu/研究生课程/软件工程/pic/Git-6.png)
+![](images/Git-6.png)
 
-![Git-7](/Users/ziguoxu/研究生课程/软件工程/pic/Git-7.png)
+![](images/Git-7.png)
 
-![Git-8](/Users/ziguoxu/研究生课程/软件工程/pic/Git-8.png)
+![](images/Git-8.png)
 
-![Git-9](/Users/ziguoxu/研究生课程/软件工程/pic/Git-9.png)
+![](images/Git-9.png)
 
-![Git-10](/Users/ziguoxu/研究生课程/软件工程/pic/Git-10.png)
 
-![Git-11](/Users/ziguoxu/研究生课程/软件工程/pic/Git-11.png)
 
-![Git-12](/Users/ziguoxu/研究生课程/软件工程/pic/Git-12.png)
+![](images/Git-10.png)
 
-![Git-13](/Users/ziguoxu/研究生课程/软件工程/pic/Git-13.png)
+![](images/Git-11.png)
 
-![Git-14](/Users/ziguoxu/研究生课程/软件工程/pic/Git-14.png)
+![](images/Git-12.png)
 
-![Git-15](/Users/ziguoxu/研究生课程/软件工程/pic/Git-15.png)
+![](images/Git-13.png)
 
-![Git-16](/Users/ziguoxu/研究生课程/软件工程/pic/Git-16.png)
+![](images/Git-14.png)
 
-![Git-17](/Users/ziguoxu/研究生课程/软件工程/pic/Git-17.png)
+![](images/Git-15.png)
 
-![Git-18](/Users/ziguoxu/研究生课程/软件工程/pic/Git-18.png)
+![](images/Git-16.png)
 
-![Git-19](/Users/ziguoxu/研究生课程/软件工程/pic/Git-19.png)
+![](images/Git-17.png)
 
-![Git-20](/Users/ziguoxu/研究生课程/软件工程/pic/Git-20.png)
+![](images/Git-18.png)
 
-![Git-21](/Users/ziguoxu/研究生课程/软件工程/pic/Git-21.png)
+![](images/Git-19.png)
+
+![](images/Git-20.png)
+
+![](images/Git-21.png)
+
+
+
+
+
+
 
 ## GitHub以及团队协作
 
 **Git-Flow 工作图示**
 
-![flow](/Users/ziguoxu/研究生课程/软件工程/pic/flow.png)
+![](images/flow.png)
 
-引用自@xianhu，
-
-![Git-flow](/Users/ziguoxu/研究生课程/软件工程/pic/Git-flow.png)
+![](images/Git-flow.png)
 
 以上分支的主要用途：
 
@@ -89,4 +95,4 @@
 3. release分支，即发布分支，从develop分支上检出。该分支用作发版前的测试，可进行简单的bug修复。如果bug修复比较复杂，可merge回develop分支后由其他分支进行bug修复。此分支测试完成后，需要同时merge到master和develop分支上。
 4. feature分支，即功能分支，从develop分支上检出。团队成员中每个人都维护一个自己的feature分支，并进行开发工作，开发完成后将此分支merge回develop分支。此分支一般用来开发新功能或进行项目维护等。
 5. fix分支，即补丁分支，由develop分支检出，用作bug修复，bug修复完成需merge回develop分支，并将其删除。所以该分支属于临时性分支。
-6. hotfix分支，即热补丁分支。和fix分支的区别在于，该分支由master分支检出，进行线上版本的bug修复，修复完成后merge回master分支，并merge到develop分支上，merge完成后也可以将其删除，也属于临时性分支。
+6. hotfix分支，即热补丁分支。和fix分支的区别在于，该分支由master分支检出，进行线上版本的bug修复，修复完成后merge回master分支，并merge到develop分支上，merge完成后也可以将其删除，也属于临时性分支
